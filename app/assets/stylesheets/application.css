@@ -14,22 +14,51 @@
  *= require_self
  */
 
-body {
-	background: rgba(210,238,232,1);
-	background: -moz-linear-gradient(left, rgba(210,238,232,1) 0%, rgba(133,204,191,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,238,232,1)), color-stop(100%, rgba(133,204,191,1)));
-	background: -webkit-linear-gradient(left, rgba(210,238,232,1) 0%, rgba(133,204,191,1) 100%);
-	background: -o-linear-gradient(left, rgba(210,238,232,1) 0%, rgba(133,204,191,1) 100%);
-	background: -ms-linear-gradient(left, rgba(210,238,232,1) 0%, rgba(133,204,191,1) 100%);
-	background: linear-gradient(to right, rgba(210,238,232,1) 0%, rgba(133,204,191,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2eee8', endColorstr='#85ccbf', GradientType=1 );
+.blue {
+	background: rgba(242,246,248,1);
+background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 51%, rgba(216,225,231,1) 90%, rgba(224,239,249,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(90%, rgba(216,225,231,1)), color-stop(100%, rgba(224,239,249,1)));
+background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 51%, rgba(216,225,231,1) 90%, rgba(224,239,249,1) 100%);
+background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 51%, rgba(216,225,231,1) 90%, rgba(224,239,249,1) 100%);
+background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 51%, rgba(216,225,231,1) 90%, rgba(224,239,249,1) 100%);
+background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 51%, rgba(216,225,231,1) 90%, rgba(224,239,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
 }
 
+.about {
+	background: url(bluemove.jpg) no-repeat;
+	background-size: cover;
+}
+
+.yellow{
+	background-color: yellow;
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
 
 h1 {
 	font-family: 'Volkorn', serif; font-weight: 700;
 	text-align: center;
+	font-style: italic;
+	color: #396b8e;
 }
+
+h3, h4 {
+	font-family: 'Volkorn', serif; font-weight: 700;
+	/*font-style: italic;*/
+	text-align: left;
+	color: #396b8e;
+}
+
+.row {
+	color: #396b8e;
+}
+
+.index {
+	font-family: 'Volkorn', serif; font-weight: 700;
+	text-align: left;
+}
+
 
 .col-md-4 {
 	font-family: 'Volkorn', serif; font-weight: 700;
