@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+  <%= @message.name %>
+</div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+  <%= @message.company %>
+</div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+  <%= @message.phone %>
+</div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+  <%= @message.email %>
+</div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+  <%= @message.subject %>
+</div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+ <!--  <%= render 'messages/form' %> -->
+  <%= @message.body %>
+</div>
+</div>
+
+<%= link_to 'Edit Your Message To Squad', edit_message_path(@message) %> 
+

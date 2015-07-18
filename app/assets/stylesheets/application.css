@@ -80,9 +80,11 @@ p {
 	text-align: justify;
 }
 
-
+.wrapper {
+	text-align: center;
+}
 
 .navbar-default {
-	background:#ad9f9f;
+	background:#fff;
 }
 
